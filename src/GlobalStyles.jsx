@@ -1,5 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
-
+import styled, { createGlobalStyle } from 'styled-components'
 export const GlobalStyles = createGlobalStyle`
   * {
     margin: 0;
@@ -38,4 +37,13 @@ export const GlobalStyles = createGlobalStyle`
     width: 100%;
     height: 100%;
   }
+`
+
+export const NoData = styled.div`
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: red;
 `

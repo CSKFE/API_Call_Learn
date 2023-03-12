@@ -16,6 +16,9 @@ export const Lists = styled.li`
     max-width: 100%;
     width: 100%;
     height: 100%;
+    &.no-img {
+      background-color: #ddd;
+    }
   }
   
   .img-box {
